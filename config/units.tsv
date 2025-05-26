@@ -1,7 +1,29 @@
-sample_name	unit_name	fq1	fq2	sra	adapters	strandedness
-A	lane1	A.1.fq.gz	A.2.fq.gz		
-A	lane2	A2.1.fq.gz	A2.2.fq.gz		
-B	lane1	B.1.fq.gz	B.2.fq.gz		
-C	lane1	C.1.fq.gz	C.2.fq.gz		
-D	lane1	D.1.fq.gz	D.2.fq.gz		
-E	lane1	E.1.fq.gz	E.2.fq.gz		
+sample_name	unit_name	fq1	fq2 	sra	adapters	strandedness
+A	lane1	A.1.fq.gz	A.2.fq.gz	SRR33210213	
+A	lane2	A2.1.fq.gz	A2.2.fq.gz	SRR33210214	
+B	lane1	B.1.fq.gz	B.2.fq.gz	SRR33210215	
+C	lane1	C.1.fq.gz	C.2.fq.gz	SRR33210216	
+D	lane1	D.1.fq.gz	D.2.fq.gz	SRR33210217	
+E	lane1	E.1.fq.gz	E.2.fq.gz	SRR33210218	
+F   lane1   F.1.fq.gz   F.2.fq.gz   SRR33210219
+G   lane1   G.1.fq.gz   G.2.fq.gz   SRR33210220
+H   lane1   H.1.fq.gz   H.2.fq.gz   SRR33210221
+I   lane1   I.1.fq.gz   I.2.fq.gz   SRR33210222
+J   lane1   J.1.fq.gz   J.2.fq.gz   SRR33210223
+K   lane1   K.1.fq.gz   K.2.fq.gz   SRR33210224
+L   lane1   L.1.fq.gz   L.2.fq.gz   SRR33210225
+M   lane1   M.1.fq.gz   M.2.fq.gz   SRR33210226
+N   lane1   N.1.fq.gz   N.2.fq.gz   SRR33210227
+O   lane1   O.1.fq.gz   O.2.fq.gz   SRR33210228
+P   lane1   P.1.fq.gz   P.2.fq.gz   SRR33210229
+Q   lane1   Q.1.fq.gz   Q.2.fq.gz   SRR33210230
+R   lane1   R.1.fq.gz   R.2.fq.gz   SRR33210231
+S   lane1   S.1.fq.gz   S.2.fq.gz   SRR33210232
+T   lane1   T.1.fq.gz   T.2.fq.gz   SRR33210233
+U   lane1   U.1.fq.gz   U.2.fq.gz   SRR33210234
+V   lane1   V.1.fq.gz   V.2.fq.gz   SRR33210235
+W   lane1   W.1.fq.gz  W.2.fq.gz    SRR33210236
+X   lane1   X.1.fq.gz   X.2.fq.gz  SRR33210237
+Y   lane1   Y.1.fq.gz   Y.2.fq.gz   SRR33210238
+Z   lane1   Z.1.fq.gz   Z.2.fq.gz   SRR33210239
+
