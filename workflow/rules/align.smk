@@ -13,7 +13,7 @@ rule align:
         extra=lambda wc, input: f'--outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --sjdbGTFfile {input.gtf} {config["params"]["star"]}',
     threads: 30
     wrapper:
-        "v3.14.0/bio/star/align"
+        "v7.0.0/bio/star/align"
 
 rule samtools_index:
     input:
@@ -26,4 +26,4 @@ rule samtools_index:
         extra="",  # optional params string
     threads: 30  # This value - 1 will be sent to -@
     wrapper:
-        "v3.14.0/bio/samtools/index"
+        "v7.0.0/bio/samtools/index"

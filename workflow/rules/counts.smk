@@ -59,4 +59,4 @@ rule normalize_counts:
     log:
         "logs/normalize_counts.log",
     script:
-        "../scripts/rnanorm.py"
+        "../scripts/normalize_counts.py"

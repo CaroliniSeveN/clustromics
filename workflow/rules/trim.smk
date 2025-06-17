@@ -10,7 +10,7 @@ rule get_sra:
     resources:
         load=51
     wrapper:
-        "v3.14.0/bio/sra-tools/fasterq-dump"
+        "v7.0.0/bio/sra-tools/fasterq-dump"
 
 rule get_sra_se:
     output:
@@ -23,7 +23,7 @@ rule get_sra_se:
     resources:
         load=51
     wrapper:
-        "v3.14.0/bio/sra-tools/fasterq-dump"
+        "v7.0.0/bio/sra-tools/fasterq-dump"
 
 rule cutadapt_pipe:
     input:
@@ -53,7 +53,7 @@ rule cutadapt_pe:
         adapters=lambda w: str(units.loc[w.sample].loc[w.unit, "adapters"]),
     threads: 8
     wrapper:
-        "v3.14.0/bio/cutadapt/pe"
+        "v7.0.0/bio/cutadapt/pe"
 
 
 rule cutadapt_se:
@@ -69,7 +69,7 @@ rule cutadapt_se:
         adapters_r1=lambda w: str(units.loc[w.sample].loc[w.unit, "adapters"]),
     threads: 8
     wrapper:
-        "v3.14.0/bio/cutadapt/se"
+        "v7.0.0/bio/cutadapt/se"
 
 rule trim_galore_pe:
     input:
@@ -85,7 +85,7 @@ rule trim_galore_pe:
     log:
         "logs/trim_galore/{sample}_{unit}.log",
     wrapper:
-        "v3.14.1/bio/trim_galore/pe"
+        "v7.0.0/bio/trim_galore/pe"
 
 rule trim_galore_se:
     input:
@@ -98,4 +98,4 @@ rule trim_galore_se:
     log:
         "logs/trim_galore/{sample}_{unit}.log",
     wrapper:
-        "v3.14.1/bio/trim_galore/se"
+        "v7.0.0/bio/trim_galore/se"

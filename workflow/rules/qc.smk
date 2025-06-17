@@ -159,7 +159,7 @@ rule fastqc:
     resources:
         mem_mb = 1024
     wrapper:
-        "v3.14.0/bio/fastqc"
+        "v7.0.0/bio/fastqc"
 
 rule multiqc:
     input:
@@ -213,4 +213,4 @@ rule multiqc:
     log:
         "logs/multiqc.log",
     wrapper:
-        "v3.14.0/bio/multiqc"
+        "v7.0.0/bio/multiqc"
