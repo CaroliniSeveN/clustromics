@@ -1,7 +1,20 @@
 sample_name	unit_name	fq1	fq2	sra	adapters	strandedness
-A	lane1	A.1.fq.gz	A.2.fq.gz		
-A	lane2	A2.1.fq.gz	A2.2.fq.gz		
-B	lane1	B.1.fq.gz	B.2.fq.gz		
-C	lane1	C.1.fq.gz	C.2.fq.gz		
-D	lane1	D.1.fq.gz	D.2.fq.gz		
-E	lane1	E.1.fq.gz	E.2.fq.gz		
+A	lane1				        SRR34638226
+B	lane1				        SRR34638227
+C	lane1				        SRR34638228
+D	lane1				        SRR34638229
+E	lane1				        SRR34638230
+F	lane1				        SRR34638231
+G	lane1				        SRR34638232
+H	lane1				        SRR34638233
+I	lane1				        SRR34638234
+J	lane1				        SRR34638235
+K	lane1				        SRR34638236
+L	lane1				        SRR34638237
+M	lane1				        SRR34638238
+N	lane1				        SRR34638239
+O	lane1				        SRR34638240
+P	lane1				        SRR34638241
+R	lane1				        SRR34638242
+S	lane1				        SRR34638243
+
